@@ -1,0 +1,18 @@
+{
+    "name": "intentsolutions/symfony-lombok-bumbu",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "IS\\Bumbu\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Intent Solutions",
+            "email": "info@intent-solutions.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

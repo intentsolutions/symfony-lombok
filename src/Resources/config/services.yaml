@@ -1,0 +1,12 @@
+services:
+  _defaults:
+    autowire: true
+
+  #Validation
+  IS\Bumbu\ArgumentResolver\RequestBodyArgumentResolver:
+    tags:
+      - { name: 'controller.argument_value_resolver', priority: 1 }
+
+  #Magic
+  IS\Bumbu\Normalizer\Proxy\ProxyFactory:
+    arguments: [ ]
